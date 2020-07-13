@@ -15,16 +15,23 @@ function bloop() {
 }
 
 
-function verify() {
-  var areUSure = prompt("Are you sure you want to join the squid server?")
+function Verify() {
+  var areUSure = prompt("Are you sure you want to join the squid server?If so, type in 'YES'");
 
 
   if(areUSure == 'YES') {
     alert("Ok, the page shuld open up in a few seconds...");
 
-  }
-
-  else {
+  } else if(areUSure == 'Yes') { 
+   alert("Ok, cool");
+   
+   } else{
+     if (areUSure == 'yes') {
+       alert("Ok, then click, 'join the server' , thanks!");
+     } else {
+     alert("Pretty please? with a cherry on top? 🍒🍒🍨🍨?");
+     }
+    
     
   }
 }

@@ -2,13 +2,13 @@
 /*
 body {
   background-image: url(https://lh3.googleusercontent.com/MQIKO3oRyNsgxiD1TvaDJH2fNKZcqodarcUoNTooAsa-Wtf3-nFqFPyZRdflbLmwyKC-F0a4JQ6n5MZbeq_MCIYIe6zTygcL8-qby9HEXQN6rLW3FK5T5j_N9G9dwNX-geHxBG0pDHWmZexqa5icC32c37iORRZ8iM087AEoJRSnWW_9Po2tE8idg-9JoU_wREt6wh1-BX4TABoHVroSjSOITnfFoQHOG3hbNCeraclUc87WtcPcTFz8JzgtHfmVDZwwttq8kNrRf479Fp1a3JtL82wR5ocSYyd0AFiHfCh2yQ6IDkyQlOvkj3E8FdtuW-ufT4gy-J7XrBseArnfpxnLxbzUd6UBu0KANras-NRorqfGaz5oLQGNnOPO1QnObaTHaceMvyJdWIEFXliUAIBDmXLVNAr2DleflQZ9sw6DgXEhC4wtPaRsR-fT50ADvSol_zoB6Vf5Coab7xZFuzOgBiUz1AhuSbvU1ZkXvBNR7dAL_7Tn2NSxUIITprg1hZeXYI6NiwKGBIXoMEggVO2EYpL8CnXZoGrG9G-Qv4ThhHLY_Xk0iQLgAoh3CCroP3tscodsRu4HunESl56gA4-3UKCHw-BOQmqNUuM03-I71vrJV1mrUs0H9H33zopWL3IxcQTUZ4WSnN4HDsaAbjiWaTATFQbCQdSn2qrNbq5rB0048G8dQSrM9k-M=w373-h266-no?authuser=1);
-
+  
   background-color:seagreen;
-}
-*/
+}/*
+
 /*colors*/
 p {
-  color:royalblue;
+  color:rgb(0, 255, 55);
   font-family:'Courier New', Courier, monospace;
   /*background-color:aqua;*/
 }
@@ -21,45 +21,50 @@ h1 {
   font-family:'Courier New', Courier, monospace;
 }
 h2 {
-  color:rgb(255, 255, 255);
+  color:rgb(0, 204, 255);
   text-align:center;
   font-family:'Courier New', Courier, monospace;
 }
 
 
 h3 {
-  color:royalblue;
+  color:rgb(0,255,127);
   font-family:'Courier New', Courier, monospace;
   /*background-color:aqua;*/
 }
 h5 {
-  color:lime;
+  color:rgb(0,255,127);
+ font-family:'Courier New', Courier, monospace;
+}
+h6 {
+  color:rgb(0,255,127);
  font-family:'Courier New', Courier, monospace;
 }
 /*list colors*/
 #whatToDo {
-  color:royalblue;
+  color:rgb(0,255,127);
   font-family:'Courier New', Courier, monospace;
   /*background-color:aqua;*/
 }
 
 
 #contact {
- color:rgb(0, 255, 0);
+ color:springgreen;
  background-color:orangered;
 }
 /*Background*/
 
 body {
-  background-color:aquamarine;
+  background-color:seagreen;
 }
 .squids {
+ /*MDN helped me with this*/
   background-image: url(https://lh3.googleusercontent.com/tSJaHWVQmXZkvJmlvizkhJ7OmqRxBywQdNZVyFhdR0Pw2yxnNiEgclZO1EzLedrNGfBtL-JDj9klVKNNqE_89M_5tICj3y1qTndmIaBhR6D4FhCFGh7-4NqL6Q7LlD3HtP2TS8pStLDmmOOup7x5qGIg6cxF1wwNLRItn62wmFSxhd3uvGnpZl9epOmUC8sfosolaRp2-Yep1k_ilMGak3M5gGmQZGBf4jJfhSmXVAW5JXBbhNBcigrybvSqjl5Nd3Z-KXoO8h2O1cNmyqsB_FC-KNNIufQOpcusOQELKe2ZcyXNOk699kzV6edXH6XjbzsF0jIvdPtgT1hkbWKGjZC4zfAcqEUlrok8mpu6Lv7pvtKPQTt04z_S8JHJF-PyVB-9rvvMaoIek4XilZUV4EchIMdQoJUt6ZVH7Ly2yPNEsL9UqcTXngIMa4YgZkSftYHoD859t_x8dWMk4XnwY_IVot_zzTCy8FyyM0NrVO0zxmUei9k1fEWJ5PCzL4W1kGYG2KdEJfBWF4KznP2FWouFAKrgE78-ZEuy2AowrmtOzpUGyCd9sWGwjt801NQ9EwC7QbgSlHgq5-_3IBCjfN2EuSVgQ-muKopgQ9p7QwoQ-G7YGc_Z7PdDWk83erKZAdvtLBAoTYhmKFmIZPticFmZ9OYbBoJ1mq5n0A4-BtFd5J5-BFwoyIf4hlR6=w520-h415-no?authuser=1);
 
  height:auto;
  border:2px solid;
  color:red;
- background-color:gray;
+ background-color:slateblue;
  background-repeat: no-repeat;
  background-size:100%;
 
@@ -70,7 +75,7 @@ body {
 
 
 /*buttons*/
-
+/*w3schools*/
 .button {
   display: inline-block;
   padding: 5px 8px;
@@ -94,9 +99,20 @@ body {
   transform: translateY(4px);
 }
 
-
-
 #unavaliable {
   cursor:not-allowed;
   opacity:0.6;
+}
+
+
+/*Links*/
+
+a:link {
+  color:lime;
+  background-color:white;
+}
+
+a:visited {
+  color:blue;
+  background-color:springgreen;
 }
