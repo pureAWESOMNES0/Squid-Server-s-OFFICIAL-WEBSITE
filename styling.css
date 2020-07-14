@@ -7,43 +7,45 @@ body {
 }/*
 
 /*colors*/
+
 p {
   color:rgb(0, 255, 55);
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Black Ops One';
   /*background-color:aqua;*/
 }
+
 
 
 h1 {
   color:rgb(255, 255, 0);
   text-align:center;
   border: 3.25mm ridge rgba(255, 0, 0, .6);
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Black Ops One';
 }
 h2 {
   color:rgb(0, 204, 255);
   text-align:center;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Black Ops One';
 }
 
 
 h3 {
   color:rgb(0,255,127);
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Black Ops One';
   /*background-color:aqua;*/
 }
 h5 {
   color:rgb(0,255,127);
- font-family:'Courier New', Courier, monospace;
+ font-family: 'Black Ops One';
 }
 h6 {
   color:rgb(0,255,127);
- font-family:'Courier New', Courier, monospace;
+ font-family: 'Black Ops One';
 }
 /*list colors*/
-#whatToDo {
+.list {
   color:rgb(0,255,127);
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Black Ops One';
   /*background-color:aqua;*/
 }
 
@@ -70,7 +72,7 @@ body {
 
  margin-left:5px;
  margin-right:5px;
-
+ font-family: 'Black Ops One';
 }
 
 
@@ -108,11 +110,15 @@ body {
 /*Links*/
 
 a:link {
-  color:lime;
-  background-color:white;
+  color:blue;
+  background-color:springgreen;
 }
 
 a:visited {
-  color:blue;
-  background-color:springgreen;
+  color:magenta;
+  background-color:blueviolet;
+}
+
+#games {
+  color:fuchsia;
 }
