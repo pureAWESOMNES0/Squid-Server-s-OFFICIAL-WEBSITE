@@ -1,16 +1,10 @@
 
-/*
-body {
-  background-image: url(https://lh3.googleusercontent.com/MQIKO3oRyNsgxiD1TvaDJH2fNKZcqodarcUoNTooAsa-Wtf3-nFqFPyZRdflbLmwyKC-F0a4JQ6n5MZbeq_MCIYIe6zTygcL8-qby9HEXQN6rLW3FK5T5j_N9G9dwNX-geHxBG0pDHWmZexqa5icC32c37iORRZ8iM087AEoJRSnWW_9Po2tE8idg-9JoU_wREt6wh1-BX4TABoHVroSjSOITnfFoQHOG3hbNCeraclUc87WtcPcTFz8JzgtHfmVDZwwttq8kNrRf479Fp1a3JtL82wR5ocSYyd0AFiHfCh2yQ6IDkyQlOvkj3E8FdtuW-ufT4gy-J7XrBseArnfpxnLxbzUd6UBu0KANras-NRorqfGaz5oLQGNnOPO1QnObaTHaceMvyJdWIEFXliUAIBDmXLVNAr2DleflQZ9sw6DgXEhC4wtPaRsR-fT50ADvSol_zoB6Vf5Coab7xZFuzOgBiUz1AhuSbvU1ZkXvBNR7dAL_7Tn2NSxUIITprg1hZeXYI6NiwKGBIXoMEggVO2EYpL8CnXZoGrG9G-Qv4ThhHLY_Xk0iQLgAoh3CCroP3tscodsRu4HunESl56gA4-3UKCHw-BOQmqNUuM03-I71vrJV1mrUs0H9H33zopWL3IxcQTUZ4WSnN4HDsaAbjiWaTATFQbCQdSn2qrNbq5rB0048G8dQSrM9k-M=w373-h266-no?authuser=1);
-  
-  background-color:seagreen;
-}/*
 
 /*colors*/
 
 p {
   color:rgb(0, 255, 55);
-  font-family: 'Black Ops One';
+   
   /*background-color:aqua;*/
 }
 
@@ -20,32 +14,32 @@ h1 {
   color:rgb(255, 255, 0);
   text-align:center;
   border: 3.25mm ridge rgba(255, 0, 0, .6);
-  font-family: 'Black Ops One';
+   
 }
 h2 {
   color:rgb(0, 204, 255);
   text-align:center;
-  font-family: 'Black Ops One';
+   
 }
 
 
 h3 {
   color:rgb(0,255,127);
-  font-family: 'Black Ops One';
+   
   /*background-color:aqua;*/
 }
 h5 {
   color:rgb(0,255,127);
- font-family: 'Black Ops One';
+  
 }
 h6 {
   color:rgb(0,255,127);
- font-family: 'Black Ops One';
+  
 }
 /*list colors*/
 .list {
   color:rgb(0,255,127);
-  font-family: 'Black Ops One';
+
   /*background-color:aqua;*/
 }
 
@@ -61,18 +55,19 @@ body {
 }
 .squids {
  /*MDN helped me with this*/
-  background-image: url(https://lh3.googleusercontent.com/tSJaHWVQmXZkvJmlvizkhJ7OmqRxBywQdNZVyFhdR0Pw2yxnNiEgclZO1EzLedrNGfBtL-JDj9klVKNNqE_89M_5tICj3y1qTndmIaBhR6D4FhCFGh7-4NqL6Q7LlD3HtP2TS8pStLDmmOOup7x5qGIg6cxF1wwNLRItn62wmFSxhd3uvGnpZl9epOmUC8sfosolaRp2-Yep1k_ilMGak3M5gGmQZGBf4jJfhSmXVAW5JXBbhNBcigrybvSqjl5Nd3Z-KXoO8h2O1cNmyqsB_FC-KNNIufQOpcusOQELKe2ZcyXNOk699kzV6edXH6XjbzsF0jIvdPtgT1hkbWKGjZC4zfAcqEUlrok8mpu6Lv7pvtKPQTt04z_S8JHJF-PyVB-9rvvMaoIek4XilZUV4EchIMdQoJUt6ZVH7Ly2yPNEsL9UqcTXngIMa4YgZkSftYHoD859t_x8dWMk4XnwY_IVot_zzTCy8FyyM0NrVO0zxmUei9k1fEWJ5PCzL4W1kGYG2KdEJfBWF4KznP2FWouFAKrgE78-ZEuy2AowrmtOzpUGyCd9sWGwjt801NQ9EwC7QbgSlHgq5-_3IBCjfN2EuSVgQ-muKopgQ9p7QwoQ-G7YGc_Z7PdDWk83erKZAdvtLBAoTYhmKFmIZPticFmZ9OYbBoJ1mq5n0A4-BtFd5J5-BFwoyIf4hlR6=w520-h415-no?authuser=1);
+  background-image: url(https://lh3.googleusercontent.com/Xg75YsWqg9CAfJ_jt6ZdL5nRVo2WorvOeiXi6U-m9m8UL362aFUaMq9heJJup5FLyiOfVVKqjWAalWGDjbuTpcF44fyLKbs8UcNeY5d5_NSdnxFnDebS9zBB1-PkqpjRykN-KK0ovXP7vINeFTzV4O2V61nUUVWx7Nb57oosP3ZxoKnu_bSJQgNDt2WamaWvRWL3YbaIoMXVidnHpz1DTia2ZXl5Hvz-HOPeTVYTQnB49RK2ph6hDySvzzZ5v8Kcb4WtPor5GqGGVV9FAxvtY28Ppexl7JRW3AhvUI_sqaoFmmsS0Y94d5t-IhrapKr0qgiIs8JXOQY-JmZRqC0Op40whdbKRckkCxJpMXNkka-T8LBgVaJaBBOxCs8a1a1rHtuAn0TdMnMnzTxANZJGYAyj-btpvbKFjVbdVqskOFk2p0bAwQZrv0nYJuIqeh5pvMecGqSntCAGlag_9ogZxhXtLADEgxc740x_Wpy9GqFlHT-3la4vhtra5e4icY73nb1YacXEI4moFrYPJL9neI___ARAdTM-dvD_qlOgaKSdTkovUG6P-n912QYfdzI5ps_pfERxZEUSPRd6yiNQvvXUSQ_Eq9PM2RhTFE3-xD8DTCS87bU3GZZNLrKJ7K9_YnLN-o7iaTx2bw4cDSbUF1Pbt9Fxyn-EnKqCi2oBMMM9NR4ucw-OQOOb70df_A=w601-h530-no?authuser=1);
 
  height:auto;
  border:2px solid;
- color:red;
+ color:skyblue;
  background-color:slateblue;
  background-repeat: no-repeat;
  background-size:100%;
 
  margin-left:5px;
  margin-right:5px;
- font-family: 'Black Ops One';
+ font-family:'ZCOOL Kuaile';
+ /*font-family:'Black Ops One';*/
 }
 
 
@@ -122,3 +117,8 @@ a:visited {
 #games {
   color:fuchsia;
 }
+
+#demo {
+  color:limegreen;
+}
+
